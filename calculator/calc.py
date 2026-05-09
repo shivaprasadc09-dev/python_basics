@@ -6,16 +6,15 @@ sign = input("+,-,*,/")
 if sign == '+':
     result = num1 + num2
 
-if sign == '-':
-    result = num1 + num2 
+elif sign == '-':
+    result = num1 - num2 
 
-if sign == '*':
+elif sign == '*':
     result = num1 * num2 
 
-if sign == '/':
+elif sign == '/':
     result = num1/num2 
 
-num3 = num1+num2
 
 
-print(f"the addition of 2 numbers is :{num3} ")
+print(f"the addition of 2 numbers is :{result} ")
