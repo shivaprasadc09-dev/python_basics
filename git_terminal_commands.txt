@@ -1,0 +1,22 @@
+
+
+
+Terminal commands
+
+cd folder_name 
+pwd # present working directory
+ls # list files
+touch shivaprasad.txt # create file
+open shivaprasad.txt # open file 
+rm -rf shivaprasad.txt # delete file
+___________________________________________________
+Git Commands
+
+git clone https://github.com/shivaprasadc09-dev/python_basics.git
+
+git add README.md
+
+git commit -m “this is my first commit”
+git push -u origin main
+
+
